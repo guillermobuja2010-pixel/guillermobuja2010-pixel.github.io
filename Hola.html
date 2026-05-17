@@ -1,23 +1,278 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Mi pagina</title>
+<title>Proyecto Aislante (Barras Reflectivas)</title> 
+<!-- Titulo que estaa en la barrra del navegadoor -->
+<style>
+body{
+  font-family: Georgia, serif;
+   margin: 0;
+  background: #f2f2f2;
+}
+
+header{
+
+
+background-image: url("https://guillermobuja2010-pixel.github.io/Disen%CC%83o-de-pequen%CC%83a-casa-de-madera.jpg");
+
+    background-size: cover;
+    color: white;
+    text-align: right;
+    padding: 30px;
+}
+
+
+nav{
+    background: black;
+    padding: 30px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+section{
+    background: white;
+    margin: 20px;
+    padding: 40px;
+}
+
+
+footer{
+    background: black;
+    color: gold;
+    text-align: center;
+    padding: 30px;
+}
+</style>
 </head>
 
-<body bgcolor="blue" text="white">
+<body>
 
-<h1>Bienvenido al lugar</h1>
-<p>Estoy creando mi página</p>
+<header>
+<h1>Proyecto de Aislante Térmico (barras refelctivas)</h1>
+<p>Equipo 10C</p>
+</header>
 
-<img src="https://guillermobuja2010-pixel.github.io/images%20(2).jpeg" width="200" height="100">
+<nav> <!-- Crea enlaces para ir rapido a cada parte de la página  -->
+    <a href="#inicio">Inicio</a>
+    <a href="#clima">Clima</a>
+    <a href="#materiales">Materiales</a>
+    <a href="#metodologia">Metodologia</a>
+    <a href="#resultados">Resultados</a>
+    <a href="#video">Video</a>
+    <a href="#equipo">Acerca de</a>
+</nav>
 
-<h1>Materiales</h1>
+<section id="inicio">
+<h2>Inicio</h2>
+<p>
+En esta segunda fase del proyecto se llevó a cabo la comparación de la temperatura entre una vivienda que tiene aislante térmico y una vivienda convencional para observar, a lo largo del tiempo, el comportamiento térmico de ambas viviendas. Esta comparación se realizó a partir de una tabla de datos con valores numéricos y una gráfica con sus correspondientes coordenadas en el plano cartesiano, permitiendo observar la variación de la temperatura interior de las viviendas a partir del uso de unos determinados materiales aislantes para mantener la temperatura interior.
+</p>
+</section>
+<!-- Cierra una sección de la página -->
 
-<p>Aluminio: refleja el calor del sol.</p>
-<p>Poliestireno: ayuda a que no pase el calor.</p>
-<p>Lana de roca: soporta altas temperaturas.</p>
-<p>Fibra de vidrio: sirve como aislante.</p>
-<p>Poliuretano: muy buen aislamiento.</p>
+<section id="clima">
+    <h2>Clima</h2>
+    <p>
+El experimento se realizó considerando un clima desértico, caracterizado por temperaturas altas durante el día, poca humedad y una fuerte exposición al sol. Este tipo de clima provoca que las viviendas acumulen mucho calor, por lo que el uso de materiales aislantes es importante para mantener una temperatura interior más estable y cómoda.
+    </p>
+</section>
+
+<section id="materiales">
+    <h2>Materiales</h2>
+    <ul>
+<li>Barras refelctivas </li> <!-- Elemento de la lista ordenado -->
+<li>Laminas aluminizada</li>
+<li>Propiedades</li>
+<li>Barras reflectivas</li>
+<li>Lija</li>
+<li>Cuter</li>
+<li>Regla</li>
+<li>Pasto sintetico</li>
+    </ul>  <!-- Lista desordenada -->
+</section>
+
+<section id="metodologia"> <!-- id de la pestaña -->
+<h2>Metodología</h2>
+
+<p> <!-- parrafo -->
+Para realizar el experimento, se construyeron dos viviendas pequeñas utilizando los mismos materiales y medidas. Una de las viviendas fue elaborada con materiales aislantes, como barras reflectivas y pasto sintético, mientras que la otra se dejó como vivienda convencional. Después, ambas viviendas fueron colocadas bajo las mismas condiciones de exposición al sol en un clima desértico.
+</p>
+
+<p>
+Posteriormente, se midió la temperatura interior de cada vivienda durante diferentes periodos de tiempo y los datos obtenidos fueron registrados en una tabla. Finalmente, los resultados se representaron en una gráfica con coordenadas en el plano cartesiano para comparar el comportamiento térmico de ambas viviendas y analizar la efectividad del aislante térmico.
+</p>
+
+</section>
+
+<section id="resultados">
+<h2>Resultados</h2>
+
+<table border="1" width="100%" align="center" cellspacing="0" cellpadding="10">
+
+<!-- cellspacing quita o agrega espacio entre celdas -->
+
+<!-- cellpaddlign agrega espacio dentro de las celdas -->
+    
+<tr>
+<th colspan="5">
+Registro de datos de temperatura en la comparación entre una casa tradicional y una casa con aislante térmico
+        </th>
+    </tr>
+
+    <tr>
+        <th colspan="5">
+            Barreras reflectivas (lámina aluminizada)
+        </th>
+    </tr>
+    <!-- rowspan hace que una celda ocupe varias filas -->
+
+<!-- colspan hace que una celda ocupe varias columnas -->
+
+    <tr>
+        <th>Fecha</th>
+        <th>Hora</th>
+        <th>Temp. Ambiente</th>
+        <th>Casa Tradicional</th>
+        <th>Casa con aislante térmico</th>
+    </tr>
+
+    <tr>
+        <td rowspan="8">20 de abril</td>
+        <td>7:00 a.m.</td>
+        <td>21°C</td>
+        <td>26°C</td>
+        <td>24.9°C</td>
+    </tr>
+
+    <tr>
+        <td>8:00 a.m.</td>
+        <td>23°C</td>
+        <td>29.1°C</td>
+        <td>27.1°C</td>
+    </tr>
+
+    <tr>
+        <td>9:00 a.m.</td>
+        <td>23°C</td>
+        <td>38.9°C</td>
+        <td>36.9°C</td>
+    </tr>
+
+    <tr>
+        <td>10:00 a.m.</td>
+        <td>25°C</td>
+        <td>39.6°C</td>
+        <td>37.6°C</td>
+    </tr>
+
+    <tr>
+        <td>11:00 a.m.</td>
+        <td>25°C</td>
+        <td>39.1°C</td>
+        <td>37.1°C</td>
+    </tr>
+
+    <tr>
+        <td>12:00 p.m.</td>
+        <td>26°C</td>
+        <td>37°C</td>
+        <td>35°C</td>
+    </tr>
+
+    <tr>
+        <td>1:00 p.m.</td>
+        <td>25°C</td>
+        <td>39.3°C</td>
+        <td>37.3°C</td>
+    </tr>
+
+    <tr>
+        <td>2:00 p.m.</td>
+        <td>25°C</td>
+        <td>38.3°C</td>
+        <td>36.3°C</td> 
+    </tr>
+<!-- tr crea una fila en la tabla --> 
+<!-- th crea un encabezado dentro de la tabla -->
+
+</table>
+</section>
+
+<section id="video">
+<h2>Video de la simulación</h2>
+<!-- No pude con video src entonces busque uno y encontre iframe que inserta un video de una pagina externa  -->
+<iframe 
+width="100%"
+height="500"
+src="https://streamable.com/e/w3zz76"
+frameborder="0">
+</iframe>
+
+</section>
+
+<section id="conclusion">
+<h2>Conclusión</h2>
+<p>
+Al comparar las viviendas, se observa que la casa con aislante térmico presenta un mejor funcionamiento a la hora de controlar la temperatura. Esto acredita que los materiales aislantes funcionan correctamente para climas extremos, en especial para las zonas cálidas que contemplan climas desérticos.
+</p>
+</section>
+
+<section id="equipo">
+<h2>Acerca del equipo</h2>
+
+<table width="100%" cellpadding="20">
+
+<tr align="center">
+
+<td>
+<img src="https://guillermobuja2010-pixel.github.io/WhatsApp%20Image%202026-05-16%20at%2019.19.30.jpeg" width="150"><br>
+Valeria
+</td>
+
+<td>
+<img src="https://guillermobuja2010-pixel.github.io/WhatsApp%20Image%202026-05-16%20at%2019.19.26%20(1).jpeg" width="150"><br>
+Axel
+</td>
+
+<td>
+<img src="https://guillermobuja2010-pixel.github.io/WhatsApp%20Image%202026-05-16%20at%2019.19.26.jpeg" width="150"><br>
+Guillermo
+</td>
+<!-- tr crea una fila en una tabla -->
+
+<!-- td crea una celda con datos dentro de la fila -->
+</tr>
+
+<tr align="center">
+
+<td>
+<img src="https://guillermobuja2010-pixel.github.io/WhatsApp%20Image%202026-05-16%20at%2019.19.26%20(3).jpeg" width="150"><br>
+Sergio
+</td>
+
+<td>
+<img src="https://guillermobuja2010-pixel.github.io/WhatsApp%20Image%202026-05-16%20at%2019.19.26%20(2).jpeg" width="150"><br>
+Victoria
+</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<footer>
+<p>
+Equipo: Barras Reflectivas
+Guillermo, Victoria, Sergio, Axel y Valeria.
+</p>
+</footer>
+<!-- footer crea el pie de página -->
 
 </body>
 </html>
